@@ -1,0 +1,34 @@
+﻿
+> skillup@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.35
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+npm : 
+At line:1 char:1
++ npm run build 2>&1 | Out-File 
+build_v2.log -Encoding utf8
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : N 
+   otSpecified: (:String) [],   
+  RemoteException
+    + FullyQualifiedErrorId : N 
+   ativeCommandError
+ 
+Failed to compile.
+
+./components/ContactSection.tsx
+5:31  Error: 'MapPin' is 
+defined but never used.  @typesc
+ript-eslint/no-unused-vars
+5:39  Error: 'Phone' is defined 
+but never used.  @typescript-esl
+int/no-unused-vars
+
+info  - Need to disable some 
+ESLint rules? Learn more here: h
+ttps://nextjs.org/docs/basic-fea
+tures/eslint#disabling-rules

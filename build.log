@@ -1,0 +1,209 @@
+﻿
+> skillup@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.35
+
+   Creating an optimized production build ...
+npm : <w> [webpack.cache.PackFil
+eCacheStrategy] Skipped not 
+serializable cache item 'Compila
+tion/modules|D:\_PROJECTS\skillu
+p\node_modules\next\dist\build\w
+ebpack\loaders\css-loader\src\in
+dex.js??ruleSet[1].rules[14].one
+Of[12].use[2]!D:\_PROJECTS\skill
+up\node_modules\next\dist\build\
+webpack\loaders\postcss-loader\s
+rc\index.js??ruleSet[1].rules[14
+].oneOf[12].use[3]!D:\_PROJECTS\
+skillup\app\globals.css': No 
+serializer registered for 
+PostCSSSyntaxError
+At line:1 char:1
++ npm run build 2>&1 | Out-File 
+build.log -Encoding utf8
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : N 
+   otSpecified: (<w> [webpack.  
+  ca...tCSSSyntaxError:String   
+ ) [], RemoteException
+    + FullyQualifiedErrorId : N 
+   ativeCommandError
+ 
+<w> while serializing webpack/li
+b/cache/PackFileCacheStrategy.Pa
+ckContentItems -> 
+webpack/lib/NormalModule -> 
+webpack/lib/ModuleBuildError -> 
+PostCSSSyntaxError
+Failed to compile.
+
+./app/globals.css:1:1
+Syntax error: D:\_PROJECTS\skill
+up\app\globals.css The 
+`border-border` class does not 
+exist. If `border-border` is a 
+custom class, make sure it is 
+defined within a `@layer` 
+directive.
+
+[1m[31m>[39m[22m[90m 1 | 
+[39m[36m@tailwind[39m 
+base[33m;[39m
+ [90m   | 
+[39m[1m[31m^[39m[22m
+ [90m 2 | 
+[39m[36m@tailwind[39m 
+components[33m;[39m
+ [90m 3 | 
+[39m[36m@tailwind[39m 
+utilities[33m;[39m
+
+./app/globals.css
+Syntax error: D:\_PROJECTS\skill
+up\app\globals.css The 
+`border-border` class does not 
+exist. If `border-border` is a 
+custom class, make sure it is 
+defined within a `@layer` 
+directive. (1:1)
+
+[1m[31m>[39m[22m[90m 1 | 
+[39m[36m@tailwind[39m 
+base[33m;[39m
+ [90m   | 
+[39m[1m[31m^[39m[22m
+ [90m 2 | 
+[39m[36m@tailwind[39m 
+components[33m;[39m
+ [90m 3 | 
+[39m[36m@tailwind[39m 
+utilities[33m;[39m
+
+    at tryRunOrWebpackError (D:\
+_PROJECTS\skillup\node_modules\n
+ext\dist\compiled\webpack\bundle
+5.js:28:312989)
+    at 
+__webpack_require_module__ (D:\_
+PROJECTS\skillup\node_modules\ne
+xt\dist\compiled\webpack\bundle5
+.js:28:131165)
+    at __nested_webpack_require_
+153728__ (D:\_PROJECTS\skillup\n
+ode_modules\next\dist\compiled\w
+ebpack\bundle5.js:28:130607)
+    at D:\_PROJECTS\skillup\node
+_modules\next\dist\compiled\webp
+ack\bundle5.js:28:131454
+    at symbolIterator (D:\_PROJE
+CTS\skillup\node_modules\next\di
+st\compiled\neo-async\async.js:1
+:14444)
+    at done (D:\_PROJECTS\skillu
+p\node_modules\next\dist\compile
+d\neo-async\async.js:1:14824)
+    at Hook.eval [as callAsync] 
+(eval at create (D:\_PROJECTS\sk
+illup\node_modules\next\dist\com
+piled\webpack\bundle5.js:13:2885
+8), <anonymous>:15:1)
+    at Hook.CALL_ASYNC_DELEGATE 
+[as _callAsync] (D:\_PROJECTS\sk
+illup\node_modules\next\dist\com
+piled\webpack\bundle5.js:13:2601
+2)
+    at D:\_PROJECTS\skillup\node
+_modules\next\dist\compiled\webp
+ack\bundle5.js:28:130328
+    at symbolIterator (D:\_PROJE
+CTS\skillup\node_modules\next\di
+st\compiled\neo-async\async.js:1
+:14402)
+-- inner error --
+Syntax error: D:\_PROJECTS\skill
+up\app\globals.css The 
+`border-border` class does not 
+exist. If `border-border` is a 
+custom class, make sure it is 
+defined within a `@layer` 
+directive. (1:1)
+
+[1m[31m>[39m[22m[90m 1 | 
+[39m[36m@tailwind[39m 
+base[33m;[39m
+ [90m   | 
+[39m[1m[31m^[39m[22m
+ [90m 2 | 
+[39m[36m@tailwind[39m 
+components[33m;[39m
+ [90m 3 | 
+[39m[36m@tailwind[39m 
+utilities[33m;[39m
+
+    at Object.<anonymous> (D:\_P
+ROJECTS\skillup\node_modules\nex
+t\dist\build\webpack\loaders\css
+-loader\src\index.js??ruleSet[1]
+.rules[14].oneOf[12].use[2]!D:\_
+PROJECTS\skillup\node_modules\ne
+xt\dist\build\webpack\loaders\po
+stcss-loader\src\index.js??ruleS
+et[1].rules[14].oneOf[12].use[3]
+!D:\_PROJECTS\skillup\app\global
+s.css:1:7)
+    at D:\_PROJECTS\skillup\node
+_modules\next\dist\compiled\webp
+ack\bundle5.js:28:922493
+    at Hook.eval [as call] 
+(eval at create (D:\_PROJECTS\sk
+illup\node_modules\next\dist\com
+piled\webpack\bundle5.js:13:2863
+6), <anonymous>:7:1)
+    at Hook.CALL_DELEGATE [as 
+_call] (D:\_PROJECTS\skillup\nod
+e_modules\next\dist\compiled\web
+pack\bundle5.js:13:25906)
+    at D:\_PROJECTS\skillup\node
+_modules\next\dist\compiled\webp
+ack\bundle5.js:28:131198
+    at tryRunOrWebpackError (D:\
+_PROJECTS\skillup\node_modules\n
+ext\dist\compiled\webpack\bundle
+5.js:28:312943)
+    at 
+__webpack_require_module__ (D:\_
+PROJECTS\skillup\node_modules\ne
+xt\dist\compiled\webpack\bundle5
+.js:28:131165)
+    at __nested_webpack_require_
+153728__ (D:\_PROJECTS\skillup\n
+ode_modules\next\dist\compiled\w
+ebpack\bundle5.js:28:130607)
+    at D:\_PROJECTS\skillup\node
+_modules\next\dist\compiled\webp
+ack\bundle5.js:28:131454
+    at symbolIterator (D:\_PROJE
+CTS\skillup\node_modules\next\di
+st\compiled\neo-async\async.js:1
+:14444)
+
+Generated code for D:\_PROJECTS\
+skillup\node_modules\next\dist\b
+uild\webpack\loaders\css-loader\
+src\index.js??ruleSet[1].rules[1
+4].oneOf[12].use[2]!D:\_PROJECTS
+\skillup\node_modules\next\dist\
+build\webpack\loaders\postcss-lo
+ader\src\index.js??ruleSet[1].ru
+les[14].oneOf[12].use[3]!D:\_PRO
+JECTS\skillup\app\globals.css
+
+Import trace for requested 
+module:
+./app/globals.css
+
+
+> Build failed because of 
+webpack errors
