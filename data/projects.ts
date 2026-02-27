@@ -18,7 +18,7 @@ export const projects: Project[] = [
     },
     {
         id: 2,
-        title: "Aura Perfume",
+        title: "RARE PHEROMONE",
         category: "Business",
         image: "/images/project6.jpg",
         description: "A premium business landing page for a fragrance brand.",
