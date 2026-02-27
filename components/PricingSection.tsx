@@ -105,8 +105,7 @@ export default function PricingSection() {
                             <Button
                                 asChild
                                 size="lg"
-                                className={`w-full gap-3 h-14 rounded-2xl font-bold transition-all shadow-lg hover:shadow-primary/25 ${plan.popular ? "bg-primary hover:bg-primary/90" : "bg-slate-900 hover:bg-slate-800"
-                                    }`}
+                                className={`w-full gap-3 h-14 rounded-2xl font-bold transition-all shadow-lg hover:shadow-primary/25 bg-primary hover:bg-primary/90`}
                             >
                                 <Link href={handleWhatsAppClick(plan.name, plan.price)} target="_blank">
                                     <MessageCircle size={20} className="group-hover:animate-bounce" /> Get Started
