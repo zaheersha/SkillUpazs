@@ -22,15 +22,15 @@ export const projects: Project[] = [
         category: "Business",
         image: "/images/project6.jpg",
         description: "A premium business landing page for a fragrance brand.",
-        link: "https://purfume.vercel.app/"
+        link: "https://www.rarepheromone.com/"
     },
     {
         id: 3,
-        title: "MSMF Classes",
-        category: "Portfolio",
-        image: "/images/project5.jpg",
-        description: "MSMF Classes",
-        link: "https://www.msmfclasses.com/"
+        title: "Vegam Paints",
+        category: "Business",
+        image: "/images/project5.png",
+        description: "Premium architectural paints built for builders, architects and designers.",
+        link: "https://paints-tan.vercel.app/"
     },
     {
         id: 4,
